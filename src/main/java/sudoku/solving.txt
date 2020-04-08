@@ -1,0 +1,42 @@
+Functionality
+1. Start positions and fixed numbers
+Auto solve:
+    2.-Initiate plausible grids - set existing numbers
+    3.-Remove existing numbers from grids
+        3.a-Check all horizontal numbers for pre-existing numbers, if exist remove from plausible
+        3.b-Same for vertical
+        3.c-Same for inherited 3x3 area zone
+    4-Check if any plausible grids are of size 1, aka, only have one plausible number. If so set plausible number in actual
+    5-Reset until done
+User solve:
+    Unsure, check todo list(4)
+
+TL/DR TODO:a
+        Upgrade to complex solver
+        Upgrade presentation options
+        Optional optimization(2)
+        Think of new input method, setTo probably ideal tho so unsure
+
+
+
+
+TODO:
+    (1)Current method solves easy sudoku, meaning it lacks hypothetical placement
+    (2)Implementing a direct removal of a number from the actual grid across its corresponding horizontal and vertical axis
+      would probably optimize the regular solving
+    (3)Unsure of next level of solving tier, since hypothetical placement can probably be solved easily with another layer
+     plausibility options.
+
+TODO:Optional enhancements-(4)
+    -Create a user input version:
+            Option 1: Completes sudoku, does not allow you to place incorrect numbers
+            Option 2: Abides by rule of placement but does not know final result, meaning user may input incorrect number
+            due to incorrect logic but no direct ruling which does not allow it.
+            *
+            Considerations--
+                -Clunky
+                -Probably would optimize interface/presentation
+
+
+
+
